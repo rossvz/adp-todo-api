@@ -19,6 +19,7 @@
       "typeorm-routing-controllers-extensions": "^0.2.0"
    },
    "scripts": {
+      "postinstall": "tsc",
       "start": "node build/index.js"
    }
 }
